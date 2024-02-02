@@ -1,0 +1,74 @@
+header
+{
+    width: 102%;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+}
+.logo{
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.logo:hover{
+    transition: .5s;
+   font-size: 21px;
+   color: rgb(17, 9, 0);
+}
+
+ul{
+    display: inline-flex;
+ list-style: none;
+ gap: 40px;
+ padding-right: 30px;
+ font-size: 18px;
+ color: bisque;
+}
+
+ul li:hover{
+    transition: .5s;
+    font-size: 19px;
+    color: rgb(245, 159, 0);
+}
+body{
+background-color: black;
+color: rgb(241, 241, 241);
+}
+
+.dicroshen{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    transform: translate(130px,180%);
+}
+.dicroshen input{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(232, 232, 240);
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor:url('./png-transparent-computer-icons-send-miscellaneous-angle-rectangle.png'), auto;
+    font-size: 14px;
+    transition: .5s;
+    box-shadow: 3px 1.5px 12px rgba(248, 246, 244, 0.637);
+    background-color: orange;    
+  }
+  
+ .dicroshen i{
+ 
+ } 
